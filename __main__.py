@@ -7,6 +7,7 @@ def check_dir():
 
 
 def example():
+    # redundant comment
     pass
 
 
