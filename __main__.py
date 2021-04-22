@@ -8,7 +8,8 @@ def check_dir():
 
 def example(name):
     # redundant comment
-    pass
+    for i in range(5):
+        print(i)
 
 
 def title_it(name):
@@ -19,3 +20,4 @@ if __name__ == "__main__":
     print(check_dir())
     print('hello world')
     print(title_it("hello world!"))
+    example()
