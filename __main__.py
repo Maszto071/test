@@ -18,6 +18,8 @@ def title_it(name):
 def sum_numbers(a, b):
     return  a + b
 
+def multiply_numbers(a,b):
+    return a*b
 
 if __name__ == "__main__":
     print(check_dir())
@@ -25,3 +27,4 @@ if __name__ == "__main__":
     print(title_it("hello world!"))
     example()
     sum_numbers(5, 10)
+    multiply_numbers(5,10)
